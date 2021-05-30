@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size:  62,5%;
+}
+body{
+    padding: 9rem;
+}
+.calculator{
+    border-radius: 2rem;
+    width: 19.5rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-image: linear-gradient(to top, rgb(85, 7, 187), rgb(169, 20, 189));
+    box-shadow: 0 0 .5rem black;
+}
+#calculator-btn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    width: 20rem;
+}
+button{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin: .1rem;
+    padding: .1rem;
+    color: white;
+    padding: 1.5rem;
+    background-color: rgb(129, 37, 248);
+    box-shadow: 0 0 10rem -1rem rgb(255, 65, 246);
+}
+button:hover{
+    background-color: pink;
+
+}
+#display{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    box-shadow: 0 0 .2rem white;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: .1rem;
+    padding: .1rem;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 3rem;
+    color: black;
+    background-color: rgb(233, 210, 229);
+    overflow: hidden;
+    border-radius: .3rem;
+}
+h3{
+    margin-top: 0;
+    font-size: .7rem;
+    background-image: linear-gradient(to bottom, rgb(236, 224, 243), rgb(212, 179, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family:'Poppins', sans-serif;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: .5rem;
+}
+h1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 2rem;
+}
